@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    margin: 0;
+    color: white;
+}
+
+*{
+background-color: rgb(36, 36, 36);
+padding: 10px;
+}
+.product-showcase {
+display: flex;
+justify-content: center;
+align-items: center;
+overflow-x: auto; 
+scroll-snap-type: x mandatory; 
+}
+h1{
+background-color: #202020;
+box-shadow: black 0 0 5px;
+}
+.image-container {
+flex: 0 0 auto; 
+width: 70vw; 
+scroll-snap-align: center; 
+}
+
+.image-container img {
+width: 300px;
+height: 50vh;
+display: block;
+margin: 0 auto;
+}
