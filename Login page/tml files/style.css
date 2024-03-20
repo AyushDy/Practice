@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+.head{
+    margin-top: 0;
+    height: 100px;
+    background-color: rgb(63, 197, 152);
+    font-family:sans-serif;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.head h1{
+    margin: 0 10px;
+    color: white;
+}
+
+hr{
+    width: 4px;
+    height: 5px;
+}
+
+.main{
+    background-color: #f2f2f2;
+    border: 1px solid;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.task{
+    width: 90%;
+    background-color: white;
+    height: 100px;
+    margin: 20px;
+}
+
+button{
+    padding: 20px 50px;
+    margin: 20px;
+    background-color: rgb(71, 215, 167);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
