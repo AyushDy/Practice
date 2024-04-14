@@ -4,10 +4,7 @@ const limit= 2000;
 
 
 
-let time=setInterval(() => {
-        addButton.click();
-    },  0);
-    
+
     //throttling using Date.now();
     function throttled(func, limit){
         let lastcall=0;
